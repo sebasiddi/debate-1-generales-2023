@@ -1,0 +1,144 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#maindiv h2 {
+  margin-top: 25px;
+  opacity: 0;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  animation: fade-in 1s 1 linear forwards;
+}
+#maindiv h3 {
+  opacity: 0;
+  font-size: 1rem;
+  animation: fade-in 1s 500ms 1 linear forwards;
+  color: white;
+  background-color: rgba(52, 118, 209, 0.5058823529);
+  padding: 2px 8px;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-weight: 100;
+}
+#maindiv .cita {
+  opacity: 0;
+  margin: 15px auto;
+  font-style: italic;
+  font-weight: bold;
+  width: 50%;
+  color: white;
+  background-color: rgb(153, 153, 153);
+  padding: 25px;
+  animation: fade-in 1s 1s 1 linear forwards;
+}
+#maindiv ul {
+  opacity: 0;
+  padding: 0;
+  animation: fade-in 1s 1s 1 linear forwards;
+}
+#maindiv ul li {
+  list-style: none;
+}
+
+#maindiv {
+  color: black;
+}
+#maindiv .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#maindiv .container .container-data {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  justify-content: center;
+}
+#maindiv .container .container-candidatxs {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 1%;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  padding: 25px;
+}
+#maindiv .container .container-candidatxs img {
+  width: 15%;
+  opacity: 0.5;
+  z-index: 1;
+  filter: grayscale(1);
+  border-radius: 50%;
+}
+#maindiv .container .container-candidatxs img:hover {
+  opacity: 1;
+  z-index: 10;
+  /* transform: scale(1.1); */
+  transition: 500ms;
+  animation: flash 1ms 1 linear forwards;
+  filter: grayscale(0);
+}
+#maindiv .candidatx {
+  display: none;
+}
+@keyframes flash {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(10);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
+@media (max-width: 767px) {
+  #maindiv .container .container-candidatxs {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+  #maindiv .container .container-candidatxs img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #maindiv .container .container-data .cita {
+    width: 90%;
+  }
+}
+h2 {
+  margin-top: 0;
+  text-align: center;
+  animation: fade-in 1s 1 linear forwards;
+}
+
+h3 {
+  margin-top: 5px;
+  animation: fade-in 1s 500ms 1 linear forwards;
+  text-align: center;
+  width: 60%;
+}
+
+.cita {
+  text-align: center;
+  margin: 15px auto;
+  width: 90%;
+  padding: 15px;
+  animation: fade-in 1s 1s 1 linear forwards;
+}
+
+ul {
+  opacity: 0;
+  padding: 0;
+  animation: fade-in 1s 1s 1 linear forwards;
+}
+ul li {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */

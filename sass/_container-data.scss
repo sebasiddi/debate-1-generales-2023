@@ -1,0 +1,43 @@
+#maindiv{
+
+  h2{
+    margin-top: 25px;
+    opacity: 0;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    animation: fade-in 1s 1 linear forwards;
+  
+  }
+  h3{
+    opacity: 0;
+    font-size: 1rem;
+    animation: fade-in 1s 500ms 1 linear forwards;
+    color: white;
+    background-color: #3476d181;
+    padding: 2px 8px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 100;
+  }
+  .cita{
+    opacity: 0;
+    margin: 15px auto;
+    font-style: italic;
+    font-weight: bold;
+    width: 50%;
+    color: white;
+    background-color: rgb(153, 153, 153);
+    padding: 25px;
+    animation: fade-in 1s 1s 1 linear forwards;
+  
+  }
+  ul{
+    opacity: 0;
+    padding: 0;
+    animation: fade-in 1s 1s 1 linear forwards;
+    li{
+      list-style: none;
+    }
+  };
+}

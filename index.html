@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate 2023</title>
+    <link rel="stylesheet" href="./sass/reset.css">
+    <link rel="stylesheet" href="./sass/main.css">
+</head>
+<body>
+	<div id="maindiv">
+
+
+		<div class="container">
+	 	
+ 			
+			<div class="container-candidatxs">
+
+				<div id="candidatx0-data-mobile" class="candidatx">
+					<h2>Patricia Bullrich</h2>
+					<h3>Juntos por el Cambio</h3>
+					<p class="cita">
+						"Es pensar que los argentinos estamos muy dolidos. Y vamos a armar un sistema que ponga el foco en el ser humano desde una perspectiva en la que todo aquello que tiene que ver con el ser humano, su vida, su educación, su cultura, su bienestar, su seguridad... estén todos bajo una filosofía muy interesante."
+					</p>
+				</div>
+				<img src="https://www.telam.com.ar/advf/imagenes/2023/09/650859cc65e65.jpg" id="candidatx0" alt="">
+
+				<div id="candidatx1-data-mobile" class="candidatx">
+					<h2>Myriam Bregman</h2>
+					<h3>Frente de izquierda y de Trabajadores - Unidad</h3>
+					<p class="cita">
+						"El cogobierno del FMI no es una frase, cada tres meses va a revisar el acuerdo"
+					</p>
+				</div>
+				<img src="https://www.telam.com.ar/advf/imagenes/2023/09/650859cc6cfe8.jpg" id="candidatx1" alt="">
+
+				<div id="candidatx2-data-mobile" class="candidatx">
+					<h2>Juan Schiaretti</h2>
+					<h3>Hacemos por Nuestro País</h3>
+					<p class="cita">
+						"Si Argentina logra unificar un programa de gobierno, y hacemos una coalición que supere la grieta, el país puede empezar a resolver sus problemas a partir del próximo gobierno. Si gana un polo de la grieta, continúa el empate de debilidad."
+					</p>
+				</div>
+				<img src="https://www.telam.com.ar/advf/imagenes/2023/09/650859cc7373e.jpg" id="candidatx2" alt="">
+
+				<div id="candidatx3-data-mobile" class="candidatx">
+					<h2>Javier Milei</h2>
+					<h3>La Libertad Avanza</h3>
+					<p class="cita">
+						"Vamos a dar un cambio de 540 grados.""
+					</p>
+				</div>
+				<img src="https://www.telam.com.ar/advf/imagenes/2023/09/650859dc96544.jpg" id="candidatx3" alt="">
+
+				<div id="candidatx4-data-mobile" class="candidatx">
+					<h2>Sergio Massa</h2>
+					<h3>Unión por la Patria</h3>
+					<p class="cita">
+						"Venimos a defender la identidad de nuestra patria, frente a aquellos que plantean que somos un país de mierda"
+					</p>
+				</div>
+				<img src="https://www.telam.com.ar/advf/imagenes/2023/09/650859dc9df0b.jpg" id="candidatx4" alt="">
+
+
+			</div>
+
+
+			<div class="container-data">
+				
+				
+				<div id="candidatx0-data" class="candidatx">
+					<h2>Patricia Bullrich</h2>
+					<h3>Juntos por el Cambio</h3>
+					<p class="cita">
+						"Es pensar que los argentinos estamos muy dolidos. Y vamos a armar un sistema que ponga el foco en el ser humano desde una perspectiva en la que todo aquello que tiene que ver con el ser humano, su vida, su educación, su cultura, su bienestar, su seguridad... estén todos bajo una filosofía muy interesante."
+					</p>
+				</div>
+	
+				<div id="candidatx1-data" class="candidatx">
+					<h2>Myriam Bregman</h2>
+					<h3>Frente de izquierda y de Trabajadores - Unidad</h3>
+					<p class="cita">
+						"El cogobierno del FMI no es una frase, cada tres meses va a revisar el acuerdo"
+					</p>
+				</div>
+	 
+				<div id="candidatx2-data" class="candidatx">
+					<h2>Juan Schiaretti</h2>
+					<h3>Hacemos por Nuestro País</h3>
+					<p class="cita">
+						"Si Argentina logra unificar un programa de gobierno, y hacemos una coalición que supere la grieta, el país puede empezar a resolver sus problemas a partir del próximo gobierno. Si gana un polo de la grieta, continúa el empate de debilidad."
+					</p>
+				</div>
+			
+				<div id="candidatx3-data" class="candidatx">
+					<h2>Javier Milei</h2>
+					<h3>La Libertad Avanza</h3>
+					<p class="cita">
+						"Vamos a dar un cambio de 540 grados.""
+					</p>
+				</div>
+	 
+				<div id="candidatx4-data" class="candidatx">
+					<h2>Sergio Massa</h2>
+					<h3>Unión por la Patria</h3>
+					<p class="cita">
+						"Venimos a defender la identidad de nuestra patria, frente a aquellos que plantean que somos un país de mierda"
+					</p>
+				</div>
+		
+	
+			</div>
+	
+	
+		</div>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", (event) => {
+  const paths = [
+    document.getElementById("candidatx0"),
+    document.getElementById("candidatx1"),
+    document.getElementById("candidatx2"),
+    document.getElementById("candidatx3"),
+    document.getElementById("candidatx4"),
+  ];
+
+  const elementosHTML = [
+    document.getElementById("candidatx0-data"),
+    document.getElementById("candidatx1-data"),
+    document.getElementById("candidatx2-data"),
+    document.getElementById("candidatx3-data"),
+    document.getElementById("candidatx4-data"),
+  ];
+
+  const elementosMobileHTML = [
+    document.getElementById("candidatx0-data-mobile"),
+    document.getElementById("candidatx1-data-mobile"),
+    document.getElementById("candidatx2-data-mobile"),
+    document.getElementById("candidatx3-data-mobile"),
+    document.getElementById("candidatx4-data-mobile"),
+  ];
+
+ 
+  const mediaQuery = window.matchMedia("(max-width: 767px)");
+
+
+  function handleMediaQueryChange(mediaQuery) {
+    if (mediaQuery.matches) {
+			
+			paths.forEach((path, index) => {
+				elementosHTML.forEach((elemento, i) => {
+            elemento.style.display = "none";
+				});
+			});
+
+
+      paths.forEach((path, index) => {
+        path.addEventListener("click", () => {
+          elementosMobileHTML.forEach((elemento, i) => {
+            elemento.style.display = i === index ? "block" : "none";
+          });
+          elementosHTML.forEach((elemento, i) => {
+            elemento.style.display = "none";
+          });
+
+
+          paths.forEach((p, i) => {
+            p.style.opacity = i === index ? 1 : 0.5; 
+          });
+
+
+          paths.forEach((p) => {
+            p.style.filter = "grayscale(1)"; 
+          });
+
+
+          path.style.filter = "grayscale(0)"; 
+        });
+      });
+    } else {
+
+					
+			paths.forEach((path, index) => {
+				elementosMobileHTML.forEach((elemento, i) => {
+            elemento.style.display = "none";
+				});
+			});
+
+      paths.forEach((path, index) => {
+        path.addEventListener("click", () => {
+          elementosHTML.forEach((elemento, i) => {
+            elemento.style.display = i === index ? "block" : "none";
+          });
+          elementosMobileHTML.forEach((elemento, i) => {
+            elemento.style.display = "none";
+          });
+
+   
+          paths.forEach((p, i) => {
+            p.style.opacity = i === index ? 1 : 0.5; 
+          });
+
+         
+          paths.forEach((p) => {
+            p.style.filter = "grayscale(1)"; 
+          });
+
+  
+          path.style.filter = "grayscale(0)"; 
+        });
+      });
+    }
+  }
+
+
+  mediaQuery.addListener(handleMediaQueryChange);
+
+
+  handleMediaQueryChange(mediaQuery);
+});
+
+	</script>
+		
+
+			
+	</div>
+</body>
+</html>

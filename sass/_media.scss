@@ -1,0 +1,50 @@
+ @media (max-width: 767px){
+  #maindiv{
+    .container{
+
+      .container-candidatxs{
+        flex-direction: column-reverse;
+        gap: 15px;
+        img{
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+      .container-data{
+        .cita{
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+
+h2{
+  margin-top: 0;
+  text-align: center;
+  animation: fade-in 1s 1 linear forwards;
+}
+h3{
+  margin-top: 5px;
+  animation: fade-in 1s 500ms 1 linear forwards;
+  text-align: center;
+
+  width: 60%;
+}
+.cita{
+  text-align: center;
+  margin: 15px auto;
+  width: 90%;
+  padding: 15px;
+  animation: fade-in 1s 1s 1 linear forwards;
+
+}
+ul{
+  opacity: 0;
+  padding: 0;
+  animation: fade-in 1s 1s 1 linear forwards;
+  li{
+    list-style: none;
+  }
+};
