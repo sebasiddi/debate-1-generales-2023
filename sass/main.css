@@ -6,14 +6,15 @@
     opacity: 1;
   }
 }
-#maindiv h2 {
+.nombre {
   margin-top: 25px;
   opacity: 0;
   text-transform: uppercase;
   font-size: 1.3rem;
   animation: fade-in 1s 1 linear forwards;
 }
-#maindiv h3 {
+
+.partido {
   opacity: 0;
   font-size: 1rem;
   animation: fade-in 1s 500ms 1 linear forwards;
@@ -25,7 +26,8 @@
   border-radius: 5px;
   font-weight: 100;
 }
-#maindiv .cita {
+
+.cita {
   opacity: 0;
   margin: 15px auto;
   font-style: italic;
@@ -35,14 +37,6 @@
   background-color: rgb(153, 153, 153);
   padding: 25px;
   animation: fade-in 1s 1s 1 linear forwards;
-}
-#maindiv ul {
-  opacity: 0;
-  padding: 0;
-  animation: fade-in 1s 1s 1 linear forwards;
-}
-#maindiv ul li {
-  list-style: none;
 }
 
 #maindiv {
@@ -85,9 +79,11 @@
   animation: flash 1ms 1 linear forwards;
   filter: grayscale(0);
 }
-#maindiv .candidatx {
+
+.candidatx {
   display: none;
 }
+
 @keyframes flash {
   0% {
     filter: brightness(1);
@@ -99,27 +95,27 @@
     filter: brightness(1);
   }
 }
-
 @media (max-width: 767px) {
   #maindiv .container .container-candidatxs {
     flex-direction: column-reverse;
     gap: 15px;
+    padding: 0;
   }
   #maindiv .container .container-candidatxs img {
     width: 80%;
     margin: 0 auto;
   }
   #maindiv .container .container-data .cita {
-    width: 90%;
+    width: 100%;
   }
 }
-h2 {
+.nombre {
   margin-top: 0;
   text-align: center;
   animation: fade-in 1s 1 linear forwards;
 }
 
-h3 {
+.partido {
   margin-top: 5px;
   animation: fade-in 1s 500ms 1 linear forwards;
   text-align: center;
@@ -132,13 +128,4 @@ h3 {
   width: 90%;
   padding: 15px;
   animation: fade-in 1s 1s 1 linear forwards;
-}
-
-ul {
-  opacity: 0;
-  padding: 0;
-  animation: fade-in 1s 1s 1 linear forwards;
-}
-ul li {
-  list-style: none;
 }/*# sourceMappingURL=main.css.map */
